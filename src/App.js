@@ -18,7 +18,7 @@ function App() {
   const [data, setData] = useState(initData);
 
   const handleClick = () => {
-    if (count < dataMock.length) {
+    if (count < dataMock.length - 3) {
       const newData = [
         dataMock[0 + count],
         dataMock[1 + count],
