@@ -1,0 +1,197 @@
+h2,
+h3 {
+  margin: 0px;
+  padding: 0px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: purple;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container {
+  background: url("./bg1.jpg");
+  background-color: wheat;
+  background-size: 210%;
+  background-repeat: repeat;
+  background-position: center;
+  border-radius: 50px;
+}
+
+.body {
+  width: 340px;
+  height: 715px;
+  background: url("./iphone.png");
+  background-size: contain;
+  border-radius: 60px;
+}
+
+.playground {
+  padding: 35px;
+  padding-top: 55px;
+}
+
+.iphone {
+  height: 100%;
+  width: 100%;
+}
+
+.user-info {
+  height: 22px;
+  width: 170px;
+  background-color: #a7adad;
+  padding: 3px;
+  border-radius: 20px;
+  gap: 0px;
+}
+
+.avt {
+  background: url("./avt.jpg");
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-size: contain;
+}
+
+.name {
+}
+
+.name > h2 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 11px;
+  color: white;
+  font-weight: 500;
+}
+
+.name > h3 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 10px;
+  color: white;
+  font-weight: 400;
+}
+
+.follow {
+  padding: 2px 3px;
+  background-color: #ff325a;
+  height: 18px;
+  width: 45px;
+  font-size: 11px;
+  color: white;
+  border-radius: 20px;
+}
+
+.viewer {
+  gap: 5px;
+}
+
+.view {
+  color: white;
+  background-color: rgba(162, 160, 160, 0.5);
+  padding: 5px 8px;
+  border-radius: 20px;
+  gap: 3px;
+}
+
+.icon-user {
+  font-size: 12px;
+}
+.user {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.icon-close {
+  font-size: 20px;
+  color: white;
+}
+
+.comment {
+  margin-top: 240px;
+  height: 210px;
+  padding: 35px;
+  position: relative;
+  overflow: hidden;
+}
+
+.cmt {
+  justify-content: start;
+  gap: 10px;
+  margin-bottom: 15px;
+  position: relative;
+  animation: comment 3s 1;
+  background: rgba(245, 222, 179, 0.8);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+@keyframes comment {
+  from {
+    top: 300px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+.avt-cmt {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.cmt-name {
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.cmt-content {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.cmt-join {
+  font-size: 11px;
+  color: white;
+  margin-left: 5px;
+}
+
+.footer {
+  color: white;
+  margin-top: 10px;
+  padding: 0px 35px;
+}
+
+.input-cmt {
+  padding: 3px 10px;
+  background: rgba(160, 155, 147, 0.3);
+  border-radius: 30px;
+  width: 150px;
+  height: 25px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.icon-user-friend {
+  color: rgba(103, 154, 204, 0.8);
+}
+
+.icon-gifts {
+  color: rgba(232, 108, 139);
+}
+
+.icon-coin {
+  color: rgba(238, 198, 4, 0.7);
+}
+
+.icon-share {
+  color: #5274e0;
+}
