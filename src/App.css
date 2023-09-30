@@ -16,7 +16,7 @@ h3 {
   justify-content: space-between;
 }
 .container {
-  background: url("./bg1.jpg");
+  background: url("./asset/bg1.jpg");
   background-color: wheat;
   background-size: 210%;
   background-repeat: repeat;
@@ -27,7 +27,7 @@ h3 {
 .body {
   width: 340px;
   height: 715px;
-  background: url("./iphone.png");
+  background: url("./asset/iphone.png");
   background-size: contain;
   border-radius: 60px;
 }
@@ -52,7 +52,7 @@ h3 {
 }
 
 .avt {
-  background: url("./avt.jpg");
+  background: url("./asset/avt.jpg");
   width: 22px;
   height: 22px;
   border-radius: 50%;
